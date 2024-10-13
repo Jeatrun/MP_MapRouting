@@ -1,0 +1,15 @@
+<!--pages/walking.wxml-->
+<text>pages/walking.wxml</text>
+<view class="container">
+  <map id="map"
+    class="map"
+    longitude="{{longitude}}" latitude="{{latitude}}"
+    scale="20"
+    polyline="{{polyline}}"
+    show-location
+    >
+    
+  </map>
+</view>
+
+<button size="mini" bindtap="buttonSearch">route</button>

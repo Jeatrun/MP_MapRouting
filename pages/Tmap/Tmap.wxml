@@ -1,0 +1,13 @@
+<!--pages/Tmap/Tmap.wxml-->
+<view class="container">
+  <map id="map"
+    class="map"
+    markers="{{markers}}"
+    longitude="{{longitude}}" latitude="{{latitude}}"
+    scale="20"
+    >
+    
+  </map>
+</view>
+
+<button size="mini" bindtap="buttonSearch">检索“图书馆”</button>

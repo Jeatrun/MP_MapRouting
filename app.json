@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/chooseLocation/chooseLocation",
+    "pages/PolyMark/PolyMark",
+    "pages/walking/walking",
+    "v0.61/pickerTest/picker",
+    "pages/Tmap/Tmap"
+
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

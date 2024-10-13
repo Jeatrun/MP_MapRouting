@@ -1,0 +1,10 @@
+<!--v0.61/pickerTest/picker.wxml-->
+<text>v0.61/pickerTest/picker.wxml</text>
+<view class="section">
+  <view class="section__title">普通选择器</view>
+  <picker bindchange="bindPickerChange" value="{{index}}" range-key="id" range="{{objectArray}}">
+    <view class="picker">
+      当前选择：{{array[aindex]}}
+    </view>
+  </picker>
+</view>

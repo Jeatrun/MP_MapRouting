@@ -1,0 +1,10 @@
+/* v0.61/chooseLocation.wxss */
+.map{
+  width: 100%;
+  height: 800rpx;
+}
+.picker{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}

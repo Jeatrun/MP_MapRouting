@@ -1,0 +1,30 @@
+<!--v0.61/chooseLocation.wxml-->
+<text>v0.61/chooseLocation.wxml</text>
+<text>pages/walking.wxml</text>
+<view class="container">
+  <map id="map"
+    class="map"
+    markers="{{markers}}"
+    longitude="{{longitude}}" latitude="{{latitude}}"
+    scale="20"
+    polyline="{{polyline}}"
+    show-location
+    >
+  </map>
+</view>
+
+<button size="mini" bindtap="buttonSearch">search</button>
+<button size="mini" bindtap="buttonroute">route</button>
+
+<view class='selection'>
+  <view class="section__title">Select the  location</view>
+  <picker bindchange="bindPickerChange" value="{{index}}" range-key="content" range="{{titles}}">
+    <view class="picker">
+      seletced location:{{titles[index].content}}
+      latitude:{{latitude}}
+      longitude:{{longitude}}
+    </view>
+  </picker>
+
+
+</view>
